@@ -1,0 +1,15 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+[encoding: UTF-8]
+data/polkit-gnome-authorization.desktop.in
+data/polkit-gnome.schemas.in
+examples/polkit-gnome-example.c
+examples/org.gnome.policykit.examples.policy.in
+polkit-gnome/polkit-gnome-action.c
+polkit-gnome/polkit-gnome-auth.c
+polkit-gnome/polkit-gnome-context.c
+polkit-gnome/polkit-gnome-toggle-action.c
+src/main.c
+src/polkit-gnome-auth-dialog.c
+src/polkit-gnome-manager.c
+tools/polkit-gnome-authorization.c

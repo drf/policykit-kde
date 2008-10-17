@@ -1,0 +1,851 @@
+# Finnish translation of PolicyKit-gnome.
+# Copyright (C) 2007-2008 Ville-Pekka Vainio, Timo Jyrinki.
+# This file is distributed under the same license as the PolicyKit-gnome package.
+# Ville-Pekka Vainio <vpivaini@cs.helsinki.fi>
+# Timo Jyrinki <timo.jyrinki@iki.fi>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: policykit-gnome\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-21 14:02+0300\n"
+"PO-Revision-Date: 2008-09-21 14:00+0300\n"
+"Last-Translator: Ville-Pekka Vainio <vpivaini@cs.helsinki.fi>\n"
+"Language-Team: Finnish <laatu@lokalisointi.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/polkit-gnome-authorization.desktop.in.h:1
+#: ../tools/polkit-gnome-authorization.c:2452
+msgid "Authorizations"
+msgstr "Valtuutukset"
+
+#: ../data/polkit-gnome-authorization.desktop.in.h:2
+msgid "Configure authorizations"
+msgstr "Aseta valtuutukset"
+
+#: ../data/polkit-gnome.schemas.in.h:1
+msgid ""
+"A list of PolicyKit action where the \"retain authorization\" checkbox isn't "
+"checked by default; this list is maintained by the authentication dialog "
+"code itself. For example, if a user unchecks the \"retain authorization\" "
+"check box for an action and successfully obtains an authorization for the "
+"action, the action will be added to this list."
+msgstr ""
+"Luettelo PolicyKitin toiminnoista joiden ”säilytä todennus” -valintaruutu ei "
+"ole valittu oletuksena. Todennusikkunan koodi päivittää tätä luetteloa "
+"automaattisesti. Jos käyttäjä esimerkiksi poistaa valinnan jonkin toiminnon "
+"”säilytä todennus” -valintaruudusta ja todennus onnistuu, toiminto lisätään "
+"tähän luetteloon."
+
+#: ../data/polkit-gnome.schemas.in.h:2
+msgid ""
+"A list of actions where the \"retain authorization\" checkbox isn't checked "
+"by default"
+msgstr ""
+"Luettelo toiminnoista joiden ”säilytä todennus” -valintaruutu ei ole valittu "
+"oletuksena."
+
+#: ../data/polkit-gnome.schemas.in.h:3
+msgid ""
+"If set to true, the authentication dialog from PolicyKit-gnome will grab the "
+"keyboard, so that you will not be able to type in other programs while the "
+"dialog is active. Use this if your window manager does not focus the "
+"authentication dialog automatically, and you want to avoid accidentally "
+"typing passwords in other programs."
+msgstr ""
+"Jos otettu käyttöön, Policykit-gnomen todennusikkuna kaappaa "
+"näppäimistosyötteen, jolloin muihin ohjelmiin ei voi kirjoittaa, kun ikkuna "
+"on aktiivinen. Käytä tätä, jos ikkunankäsittelijä ei aseta kohdistusta "
+"todennusikkunaan automaattisesti ja haluat välttää salasanojen "
+"kirjoittamista vahingossa vääriin ikkunoihin."
+
+#: ../data/polkit-gnome.schemas.in.h:4
+msgid ""
+"If set to true, then \"retain authorization\" check box (if present) is "
+"checked by default in the authentication dialog unless the action is "
+"mentioned in the \"/desktop/gnome/policykit/"
+"auth_dialog_retain_authorization_blacklist\" key."
+msgstr ""
+"Jos otettu käyttöön, ”säilytä todennus” -valintaruutu (jos käytettävissä) on "
+"valittu oletuksena todennusikkunassa, paitsi jos toiminto on luetteloitu ”/"
+"desktop/gnome/policykit/auth_dialog_retain_authorization_blacklist”-"
+"avaimessa."
+
+#: ../data/polkit-gnome.schemas.in.h:5
+msgid "Whether the authentication dialog should grab the keyboard"
+msgstr "Kaappaako todennusikkuna näppäimistösyötteen"
+
+#: ../data/polkit-gnome.schemas.in.h:6
+msgid "Whether the retain authorization check box is checked by default"
+msgstr "Onko säilytä todennus -valintaruutu valittu oletuksena"
+
+#: ../examples/polkit-gnome-example.c:137
+msgid "Copyright © 2007 David Zeuthen"
+msgstr "Tekijänoikeudet © 2007 David Zeuthen"
+
+#: ../examples/polkit-gnome-example.c:138
+msgid "PolicyKit-gnome Website"
+msgstr "PolicyKit-gnomen verkkosivusto"
+
+#: ../examples/polkit-gnome-example.c:140
+#: ../examples/polkit-gnome-example.c:446
+msgid "PolicyKit-gnome demo"
+msgstr "PolicyKit-gnomen esittely"
+
+#: ../examples/polkit-gnome-example.c:141
+msgid "PolicyKit for the GNOME desktop"
+msgstr "PolicyKit Gnome-työpöydälle"
+
+#: ../examples/polkit-gnome-example.c:151
+msgid "_File"
+msgstr "_Tiedosto"
+
+#. name, stock id, label
+#: ../examples/polkit-gnome-example.c:152
+msgid "_Actions"
+msgstr "T_oiminnot"
+
+#. name, stock id, label
+#: ../examples/polkit-gnome-example.c:153
+msgid "_Help"
+msgstr "O_hje"
+
+#. name, stock id, label
+#. name, stock id
+#: ../examples/polkit-gnome-example.c:156
+msgid "_Quit"
+msgstr "_Lopeta"
+
+#. label, accelerator
+#: ../examples/polkit-gnome-example.c:157
+msgid "Quit"
+msgstr "Lopeta"
+
+#. name, stock id
+#: ../examples/polkit-gnome-example.c:161
+msgid "_About"
+msgstr "_Tietoja"
+
+#. label, accelerator
+#: ../examples/polkit-gnome-example.c:162
+msgid "About"
+msgstr "Tietoja"
+
+#: ../examples/polkit-gnome-example.c:243
+msgid ""
+"Making the helper <b>Frobnicate</b> requires the user to authenticate. The "
+"authorization is kept for the life time of the process"
+msgstr ""
+"Avustimen saaminen <b>säätämään</b> vaatii käyttäjän tunnistusta. Valtuutus "
+"säilyy prosessin eliniän ajan."
+
+#: ../examples/polkit-gnome-example.c:252
+msgid "Frobnicate!"
+msgstr "Säädä!"
+
+#: ../examples/polkit-gnome-example.c:267
+msgid ""
+"Making the helper <b>Jump</b> requires the user to authenticate. This is a "
+"one-shot authorization."
+msgstr ""
+"Avustimen saaminen <b>hyppäämään</b> vaatii käyttäjän tunnistusta. Tämä on "
+"yksittäinen valtuutus."
+
+#: ../examples/polkit-gnome-example.c:275
+msgid "Jump!"
+msgstr "Hyppää!"
+
+#: ../examples/polkit-gnome-example.c:290
+msgid ""
+"Making the helper <b>Tweak</b> requires a system administrator to "
+"authenticate. This instance overrides the defaults set in "
+"polkit_gnome_action_new()."
+msgstr ""
+"Avustimen saaminen <b>virittämään</b> vaatii järjestelmäylläpitäjän "
+"tunnistusta. Tämä syrjäyttää  polkit_gnome_action_new():ssä asetetut "
+"oletusarvot."
+
+#: ../examples/polkit-gnome-example.c:299
+#: ../examples/polkit-gnome-example.c:320
+msgid "Tweak!"
+msgstr "Viritä!"
+
+#: ../examples/polkit-gnome-example.c:306
+#: ../examples/org.gnome.policykit.examples.policy.in.h:17
+msgid "Tweak"
+msgstr "Viritä"
+
+#: ../examples/polkit-gnome-example.c:307
+msgid "Tweak (long)"
+msgstr "Viritä (pitkä)"
+
+#: ../examples/polkit-gnome-example.c:308
+msgid "If your admin wasn't annoying, you could do this"
+msgstr "Jos ylläpitäjä ei olisi ärsyttävä, voisit tehdä tämän"
+
+#: ../examples/polkit-gnome-example.c:313
+msgid "Tweak..."
+msgstr "Viritä..."
+
+#: ../examples/polkit-gnome-example.c:314
+msgid "Tweak... (long)"
+msgstr "Viritä... (pitkä)"
+
+#: ../examples/polkit-gnome-example.c:315
+msgid "Only card carrying tweakers can do this!"
+msgstr "Vain kortilliset virittäjät voivat tehdä tämän!"
+
+#: ../examples/polkit-gnome-example.c:321
+msgid "Tweak! (long)"
+msgstr "Viritä! (pitkä)"
+
+#: ../examples/polkit-gnome-example.c:322
+msgid "Go ahead, tweak tweak tweak!"
+msgstr "Siitä vaan, viritä nyt!"
+
+#: ../examples/polkit-gnome-example.c:339
+msgid ""
+"Making the helper <b>Twiddle</b> requires a system administrator to "
+"authenticate. Once authenticated, this privilege can be retained "
+"indefinitely."
+msgstr ""
+"Avustimen saaminen <b>pyörittelemään<b> vaatii järjestelmäylläpitäjän "
+"tunnistusta. Tunnistuksen jälkeen tämä oikeus voidaan säilyttää aina."
+
+#: ../examples/polkit-gnome-example.c:348
+msgid "Twiddle!"
+msgstr "Pyörittele!"
+
+#: ../examples/polkit-gnome-example.c:363
+msgid ""
+"Making the helper <b>Punch</b> requires the user to authenticate. Once "
+"authenticated, this privilege can be retained for the remainder of the "
+"desktop session."
+msgstr ""
+"Avustimen saaminen <b>näpäyttämään</b> vaatii käyttäjän tunnistusta. "
+"Tunnistuksen jälkeen tämä oikeus voidaan säilyttää työpöytäistunnon ajan."
+
+#: ../examples/polkit-gnome-example.c:372
+msgid "Punch!"
+msgstr "Näpäytä!"
+
+#: ../examples/polkit-gnome-example.c:387
+msgid ""
+"The <b>Toggle</b> action demonstrates the use of PolicyKit to drive a "
+"GtkToggleButton; it's an intuitive way to ask users to give up "
+"authorizations when they are done with them. E.g. the button is 'pressed in' "
+"exactlywhen the authorization is held. Toggling the button means obtaining "
+"resp. revoking the authorization in question."
+msgstr ""
+"<b>Kytke</b>-toiminto esittelee PolicyKitin käyttöä GtkToggleButtonin "
+"ohjaamiseen. Se on intuitiivinen tapa pyytää käyttäjiä luopumaan "
+"valtuutuksista, joita he eivät enää tarvitse. Esim. näppäin on ”painettuna” "
+"silloin, kun käyttäjällä on valtuutus. Näppäimen tilan vaihtaminen aiheuttaa "
+"kyseisen valtuutuksen saamisen tai menettämisen."
+
+#: ../examples/polkit-gnome-example.c:401
+msgid "Click to make changes..."
+msgstr "Tee muutoksia napsauttamalla..."
+
+#: ../examples/polkit-gnome-example.c:402
+msgid "Click to prevent changes"
+msgstr "Estä muutokset napsauttamalla"
+
+#: ../examples/polkit-gnome-example.c:422
+msgid ""
+"<i>Tip: try editing /etc/PolicyKit/Policy.conf and see the proxy widgets "
+"update in real-time.</i>."
+msgstr ""
+"<i>Vinkki: kokeile muokata tiedostoa /etc/PolicyKit/Policy.conf ja seuraa "
+"elementtien päivittymistä reaaliajassa.</i>"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:1
+msgid "Frobnicate"
+msgstr "Säädä"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:2
+msgid "Jump"
+msgstr "Hyppää"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:3
+msgid "Kick bar"
+msgstr "Potkaise baria"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:4
+msgid "Kick baz"
+msgstr "Potkaise bazia"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:5
+msgid "Kick foo"
+msgstr "Potkaise foota"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:6
+msgid "Punch"
+msgstr "Näpäytä"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:7
+msgid ""
+"System policy prevents the PolicyKit-gnome example helper from Frobnicating"
+msgstr ""
+"Järjestelmäkäytäntö estää PolicyKit-gnomen esimerkkiavustinta säätämästä"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:8
+msgid "System policy prevents the PolicyKit-gnome example helper from Jumping"
+msgstr ""
+"Järjestelmäkäytäntö estää PolicyKit-gnomen esimerkkiavustinta hyppäämästä"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:9
+msgid ""
+"System policy prevents the PolicyKit-gnome example helper from Kicking bar"
+msgstr ""
+"Järjestelmäkäytäntö estää PolicyKit-gnomen esimerkkiavustinta potkaisemasta "
+"baria"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:10
+msgid ""
+"System policy prevents the PolicyKit-gnome example helper from Kicking baz"
+msgstr ""
+"Järjestelmäkäytäntö estää PolicyKit-gnomen esimerkkiavustinta potkaisemasta "
+"bazia"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:11
+msgid ""
+"System policy prevents the PolicyKit-gnome example helper from Kicking foo"
+msgstr ""
+"Järjestelmäkäytäntö estää PolicyKit-gnomen esimerkkiavustinta potkaisemasta "
+"foota"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:12
+msgid "System policy prevents the PolicyKit-gnome example helper from Punching"
+msgstr ""
+"Järjestelmäkäytäntö estää PolicyKit-gnomen esimerkkiavustinta näpäyttämästä"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:13
+msgid "System policy prevents the PolicyKit-gnome example helper from Toggling"
+msgstr ""
+"Järjestelmäkäytäntö estää PolicyKit-gnomen esimerkkiavustinta kytkemästä"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:14
+msgid "System policy prevents the PolicyKit-gnome example helper from Tweaking"
+msgstr ""
+"Järjestelmäkäytäntö estää PolicyKit-gnomen esimerkkiavustinta virittämästä"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:15
+msgid ""
+"System policy prevents the PolicyKit-gnome example helper from Twiddling"
+msgstr ""
+"Järjestelmäkäytäntö estää PolicyKit-gnomen esimerkkiavustinta pyörittelemästä"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:16
+msgid "Toggle"
+msgstr "Kytke"
+
+#: ../examples/org.gnome.policykit.examples.policy.in.h:18
+msgid "Twiddle"
+msgstr "Pyörittele"
+
+#: ../polkit-gnome/polkit-gnome-toggle-action.c:400
+#: ../polkit-gnome/polkit-gnome-toggle-action.c:401
+msgid "Authenticating..."
+msgstr "Tunnistaudutaan..."
+
+#: ../src/main.c:139
+msgid "Don't exit after 30 seconds of inactivity"
+msgstr "Älä poistu 30 sekunnin toimettomuuden jälkeen"
+
+#: ../src/main.c:154
+msgid "PolicyKit GNOME session daemon"
+msgstr "PolicyKitin Gnome-istuntopalvelu"
+
+#: ../src/main.c:180
+#, c-format
+msgid "Starting PolicyKit GNOME session daemon version %s"
+msgstr "Käynnistetään PolicyKitin Gnome-istuntopalvelun versio %s"
+
+#: ../src/polkit-gnome-auth-dialog.c:190
+#: ../tools/polkit-gnome-authorization.c:653
+msgid "Select user..."
+msgstr "Valitse käyttäjä..."
+
+#: ../src/polkit-gnome-auth-dialog.c:211
+#: ../tools/polkit-gnome-authorization.c:672
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../src/polkit-gnome-auth-dialog.c:292
+msgid "_Remember authorization for this session"
+msgstr "_Muista valtuutus tämän istunnon ajan"
+
+#: ../src/polkit-gnome-auth-dialog.c:298
+msgid "_Remember authorization"
+msgstr "_Muista valtuutus"
+
+#: ../src/polkit-gnome-auth-dialog.c:313
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as one of the users below is required to perform this action."
+msgstr ""
+"Sovellus yrittää suorittaa etuoikeuksia vaativan toiminnon. Sen "
+"suorittaminen vaatii tunnistautumista jonakuna alla olevista käyttäjistä."
+
+#: ../src/polkit-gnome-auth-dialog.c:320
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as the super user is required to perform this action."
+msgstr ""
+"Sovellus yrittää suorittaa etuoikeuksia vaativan toiminnon. Sen "
+"suorittaminen vaatii tunnistautumista pääkäyttäjänä."
+
+#: ../src/polkit-gnome-auth-dialog.c:324
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr ""
+"Sovellus yrittää suorittaa etuoikeuksia vaativan toiminnon. Sen "
+"suorittaminen vaatii tunnistautumista."
+
+#: ../src/polkit-gnome-auth-dialog.c:405
+#, c-format
+msgid "Click to edit %s"
+msgstr "Muokkaa kohdetta %s napsauttamalla"
+
+#: ../src/polkit-gnome-auth-dialog.c:430
+#: ../tools/polkit-gnome-authorization.c:1400
+#, c-format
+msgid "Click to open %s"
+msgstr "Avaa %s napsauttamalla"
+
+#: ../src/polkit-gnome-auth-dialog.c:667
+msgid "_Authenticate"
+msgstr "_Tunnistaudu"
+
+#: ../src/polkit-gnome-auth-dialog.c:726 ../src/polkit-gnome-manager.c:686
+#: ../src/polkit-gnome-manager.c:735
+msgid "_Password:"
+msgstr "_Salasana:"
+
+#: ../src/polkit-gnome-auth-dialog.c:748
+msgid "For this _session only"
+msgstr "Vain tässä _istunnossa"
+
+#: ../src/polkit-gnome-auth-dialog.c:756
+msgid "<small><b>_Details</b></small>"
+msgstr "<small><b>_Tiedot</b></small>"
+
+#: ../src/polkit-gnome-auth-dialog.c:777
+msgid "<small><b>Application:</b></small>"
+msgstr "<small><b>Sovellus:</b></small>"
+
+#: ../src/polkit-gnome-auth-dialog.c:781
+msgid "<small><b>Action:</b></small>"
+msgstr "<small><b>Toiminto:</b></small>"
+
+#: ../src/polkit-gnome-auth-dialog.c:786
+msgid "<small><b>Vendor:</b></small>"
+msgstr "<small><b>Valmistaja:</b></small>"
+
+#: ../src/polkit-gnome-auth-dialog.c:915
+msgid "Authenticate"
+msgstr "Tunnistaudu"
+
+# virheellinen?
+#: ../src/polkit-gnome-manager.c:367
+msgid "(unknown"
+msgstr "(tuntematon"
+
+#: ../src/polkit-gnome-manager.c:730
+#, c-format
+msgid "_Password for %s:"
+msgstr "Käyttäjän %s _salasana:"
+
+#: ../src/polkit-gnome-manager.c:732
+msgid "_Password for root:"
+msgstr "Pääkäyttäjän _salasana:"
+
+#: ../src/polkit-gnome-manager.c:740
+#, c-format
+msgid "_Password or swipe finger for %s:"
+msgstr "Kirjoita käyttäjän %s _salasana tai käytä sormenjälkilukijaa:"
+
+#: ../src/polkit-gnome-manager.c:743
+msgid "_Password or swipe finger for root:"
+msgstr "Kirjoita pääkäyttäjän _salasana tai käytä sormenjälkilukijaa:"
+
+#: ../src/polkit-gnome-manager.c:746
+msgid "_Password or swipe finger:"
+msgstr "Kirjoita _salasana tai käytä sormenjälkilukijaa"
+
+#: ../tools/polkit-gnome-authorization.c:117
+msgid "No"
+msgstr "Ei"
+
+#: ../tools/polkit-gnome-authorization.c:119
+msgid "Admin Authentication (one shot)"
+msgstr "Ylläpitäjän kertatunnistus"
+
+#: ../tools/polkit-gnome-authorization.c:120
+msgid "Admin Authentication"
+msgstr "Ylläpitäjän tunnistus"
+
+#: ../tools/polkit-gnome-authorization.c:121
+msgid "Admin Authentication (keep session)"
+msgstr "Ylläpitäjän tunnistus (istunnon ajan)"
+
+#: ../tools/polkit-gnome-authorization.c:122
+msgid "Admin Authentication (keep indefinitely)"
+msgstr "Ylläpitäjän tunnistus (pysyvä)"
+
+#: ../tools/polkit-gnome-authorization.c:124
+msgid "Authentication (one shot)"
+msgstr "Kertatunnistus"
+
+#: ../tools/polkit-gnome-authorization.c:125
+msgid "Authentication"
+msgstr "Tunnistus"
+
+#: ../tools/polkit-gnome-authorization.c:126
+msgid "Authentication (keep session)"
+msgstr "Tunnistus (istunnon ajan)"
+
+#: ../tools/polkit-gnome-authorization.c:127
+msgid "Authentication (keep indefinitely)"
+msgstr "Tunnistus (pysyvä)"
+
+#: ../tools/polkit-gnome-authorization.c:129
+msgid "Yes"
+msgstr "Kyllä"
+
+#: ../tools/polkit-gnome-authorization.c:272
+msgid ", "
+msgstr ", "
+
+#: ../tools/polkit-gnome-authorization.c:276
+msgid "Must be on console"
+msgstr "On oltava konsolissa"
+
+#: ../tools/polkit-gnome-authorization.c:279
+msgid "Must be in active session"
+msgstr "On oltava aktiivisessa istunnossa"
+
+#: ../tools/polkit-gnome-authorization.c:282
+#, c-format
+msgid "Must be program %s"
+msgstr "On oltava ohjelma %s"
+
+#: ../tools/polkit-gnome-authorization.c:286
+#, c-format
+msgid "Must be SELinux Context %s"
+msgstr "On oltava SELinux-konteksti %s"
+
+#: ../tools/polkit-gnome-authorization.c:344
+msgid "A moment ago"
+msgstr "Hetki sitten"
+
+#: ../tools/polkit-gnome-authorization.c:348
+msgid "1 minute ago"
+msgstr "Minuutti sitten"
+
+#: ../tools/polkit-gnome-authorization.c:350
+#, c-format
+msgid "%d minutes ago"
+msgstr "%d minuuttia sitten"
+
+#: ../tools/polkit-gnome-authorization.c:354
+msgid "1 hour ago"
+msgstr "Tunti sitten"
+
+#: ../tools/polkit-gnome-authorization.c:356
+#, c-format
+msgid "%d hours ago"
+msgstr "%d tuntia sitten"
+
+#: ../tools/polkit-gnome-authorization.c:360
+msgid "1 day ago"
+msgstr "Päivä sitten"
+
+#: ../tools/polkit-gnome-authorization.c:362
+#, c-format
+msgid "%d days ago"
+msgstr "%d päivää sitten"
+
+#: ../tools/polkit-gnome-authorization.c:383
+#, c-format
+msgid "Auth as %s (uid %d)"
+msgstr "Tunnistus käyttäjänä %s (uid %d)"
+
+#: ../tools/polkit-gnome-authorization.c:385
+#, c-format
+msgid "Auth as uid %d"
+msgstr "Tunnistus uid:nä %d"
+
+#: ../tools/polkit-gnome-authorization.c:391
+#, c-format
+msgid "Blocked by %s (uid %d)"
+msgstr "Käyttäjä %s (uid %d) esti toiminnon"
+
+#: ../tools/polkit-gnome-authorization.c:393
+#, c-format
+msgid "Blocked by uid %d"
+msgstr "Käyttäjätunniste (uid) %d esti toiminnon"
+
+#: ../tools/polkit-gnome-authorization.c:396
+#, c-format
+msgid "Granted by %s (uid %d)"
+msgstr "Käyttäjä %s (uid %d) salli toiminnon"
+
+#: ../tools/polkit-gnome-authorization.c:398
+#, c-format
+msgid "Granted by uid %d"
+msgstr "Käyttäjätunniste (uid) %d salli toiminnon"
+
+#: ../tools/polkit-gnome-authorization.c:413
+#, c-format
+msgid "Single shot pid %d (%s)"
+msgstr "Kertatunnistus-pid %d (%s)"
+
+#: ../tools/polkit-gnome-authorization.c:419
+#, c-format
+msgid "pid %d (%s)"
+msgstr "pid %d (%s)"
+
+#: ../tools/polkit-gnome-authorization.c:422
+msgid "This session"
+msgstr "Nykyisen istunnon ajan"
+
+#: ../tools/polkit-gnome-authorization.c:425
+msgid "Always"
+msgstr "Aina"
+
+#: ../tools/polkit-gnome-authorization.c:435
+msgid "None"
+msgstr "Ei yhtään"
+
+#: ../tools/polkit-gnome-authorization.c:836
+msgid "Grant Negative Authorization"
+msgstr "Myönnä negatiivinen valtuutus"
+
+#: ../tools/polkit-gnome-authorization.c:836
+msgid "Grant Authorization"
+msgstr "Myönnä valtuutus"
+
+#: ../tools/polkit-gnome-authorization.c:859
+#, c-format
+msgid ""
+"<b><big>Granting a negative authorization for the <i>%s</i> action requires "
+"more information</big></b>"
+msgstr ""
+"<b><big>Negatiivisen valtuutuksen myöntämiseksi toiminnolle <i>%s</i> "
+"tarvitaan lisätietoja</big></b>"
+
+#: ../tools/polkit-gnome-authorization.c:860
+#, c-format
+msgid ""
+"<b><big>Granting an authorization for the <i>%s</i> action requires more "
+"information</big></b>"
+msgstr ""
+"<b><big>Valtuutuksen myöntämiseksi toiminnolle <i>%s</i> tarvitaan "
+"lisätietoja</big></b>"
+
+#: ../tools/polkit-gnome-authorization.c:871
+msgid ""
+"Select the user to block for the action and, optionally, any constraints on "
+"the negative authorization that you are about to grant."
+msgstr ""
+"Valitse käyttäjä, jolta toiminto estetään, sekä halutessasi myönnettävän "
+"negatiivisen valtuutuksen rajoitteet."
+
+#: ../tools/polkit-gnome-authorization.c:873
+msgid ""
+"Select the beneficiary and, optionally, how to constrain the authorization "
+"that you are about to grant."
+msgstr ""
+"Valitse edunsaaja sekä halutessasi myönnettävän valtuutuksen rajoitteet."
+
+#: ../tools/polkit-gnome-authorization.c:884
+msgid "<b>Beneficiary</b>"
+msgstr "<b>Edunsaaja</b>"
+
+#: ../tools/polkit-gnome-authorization.c:896
+msgid "Select the user that will receive the negative authorization."
+msgstr "Valitse käyttäjä, joka saa negatiivisen valtuutuksen."
+
+#: ../tools/polkit-gnome-authorization.c:898
+msgid "Select the user that will receive the authorization."
+msgstr "Valitse käyttäjä, joka saa valtuutuksen."
+
+#: ../tools/polkit-gnome-authorization.c:907
+msgid "_Show system users"
+msgstr "_Näytä järjestelmän käyttäjät"
+
+#: ../tools/polkit-gnome-authorization.c:922
+msgid "<b>Constraints</b>"
+msgstr "<b>Rajoitteet</b>"
+
+#: ../tools/polkit-gnome-authorization.c:933
+msgid ""
+"Constraints limits the authorization such that it only applies under certain "
+"circumstances."
+msgstr ""
+"Rajoitteet rajaavat valtuutusta siten, että se pätee vain tiettyjen "
+"olosuhteiden vallitessa."
+
+#: ../tools/polkit-gnome-authorization.c:939
+msgid "_None"
+msgstr "_Ei mitään"
+
+#: ../tools/polkit-gnome-authorization.c:941
+msgid "Must be _in active session"
+msgstr "On oltava aktiivisessa _istunnossa"
+
+#: ../tools/polkit-gnome-authorization.c:943
+msgid "Must be on _local console"
+msgstr "On oltava _paikallisella konsolilla"
+
+#: ../tools/polkit-gnome-authorization.c:945
+msgid "Must be in _active session on local console"
+msgstr "On oltava _aktiivisessa istunnossa paikallisella konsolilla"
+
+#: ../tools/polkit-gnome-authorization.c:966
+#: ../tools/polkit-gnome-authorization.c:2142
+msgid "_Block..."
+msgstr "_Estä..."
+
+#: ../tools/polkit-gnome-authorization.c:970
+#: ../tools/polkit-gnome-authorization.c:2135
+msgid "_Grant..."
+msgstr "_Myönnä..."
+
+#: ../tools/polkit-gnome-authorization.c:1164
+msgid "Edit Implicit Authorizations"
+msgstr "Muokkaa epäsuoria valtuutuksia"
+
+#: ../tools/polkit-gnome-authorization.c:1185
+msgid "<b><big>Choose new implicit authorizations</big></b>"
+msgstr "<b><big>Valitse uudet epäsuorat valtuutukset</big></b>"
+
+#: ../tools/polkit-gnome-authorization.c:1199
+#, c-format
+msgid ""
+"Implicit authorizations are authorizations that are granted automatically to "
+"users under certain circumstances. Choose what is required for the action <i>"
+"%s</i>."
+msgstr ""
+"Epäsuorat valtuutukset myönnetään käyttäjille automaattisesti tiettyjen "
+"olosuhteiden vallitessa. Valitse mitä toiminto <i>%s</i> tarvitsee."
+
+#: ../tools/polkit-gnome-authorization.c:1224
+#: ../tools/polkit-gnome-authorization.c:1983
+msgid "<i>Anyone:</i>"
+msgstr "<i>Kuka tahansa:</i>"
+
+#: ../tools/polkit-gnome-authorization.c:1231
+#: ../tools/polkit-gnome-authorization.c:1987
+msgid "<i>Console:</i>"
+msgstr "<i>Konsoli:</i>"
+
+#: ../tools/polkit-gnome-authorization.c:1238
+#: ../tools/polkit-gnome-authorization.c:1991
+msgid "<i>Active Console:</i>"
+msgstr "<i>Aktiivinen konsoli:</i>"
+
+#: ../tools/polkit-gnome-authorization.c:1267
+msgid "_Modify..."
+msgstr "_Muokkaa..."
+
+#: ../tools/polkit-gnome-authorization.c:1899
+msgid "<b>Action</b>"
+msgstr "<b>Toiminto</b>"
+
+#: ../tools/polkit-gnome-authorization.c:1914
+msgid "<i>Identifier:</i>"
+msgstr "<i>Tunniste:</i>"
+
+#: ../tools/polkit-gnome-authorization.c:1924
+msgid "<i>Description:</i>"
+msgstr "<i>Kuvaus:</i>"
+
+#: ../tools/polkit-gnome-authorization.c:1934
+msgid "<i>Vendor:</i>"
+msgstr "<i>Toimittaja:</i>"
+
+#: ../tools/polkit-gnome-authorization.c:1960
+msgid "<b>Implicit Authorizations</b>"
+msgstr "<b>Epäsuorat valtuutukset</b>"
+
+#: ../tools/polkit-gnome-authorization.c:1968
+msgid ""
+"Implicit authorizations are authorizations automatically given to users "
+"based on certain criteria such as if they are on the local console."
+msgstr ""
+"Epäsuorat valtuutukset annetaan käyttäjille automaattisesti tiettyjen "
+"kriteerien perusteella, kuten sen, ovatko he paikallisella konsolilla."
+
+#: ../tools/polkit-gnome-authorization.c:2011
+msgid "_Edit..."
+msgstr "_Muokkaa..."
+
+#: ../tools/polkit-gnome-authorization.c:2018
+msgid "Revert To _Defaults..."
+msgstr "Palauta _oletusarvot..."
+
+#: ../tools/polkit-gnome-authorization.c:2041
+msgid "<b>Explicit Authorizations</b>"
+msgstr "<b>Suorat valtuutukset</b>"
+
+#: ../tools/polkit-gnome-authorization.c:2052
+msgid ""
+"This list displays authorizations that are either obtained through "
+"authentication or specifically given to the entity in question. Blocked "
+"authorizations are marked with a STOP sign."
+msgstr ""
+"Tässä luettelossa ovat valtuutukset, jotka saadaan joko todentamisella tai "
+"jotka on erityisesti annettu kyseiselle kohteelle. Estetyt valtuutukset on "
+"merkitty SEIS-merkillä."
+
+#: ../tools/polkit-gnome-authorization.c:2082
+msgid "Entity"
+msgstr "Kokonaisuus"
+
+#: ../tools/polkit-gnome-authorization.c:2090
+msgid "Scope"
+msgstr "Vaikutusalue"
+
+#: ../tools/polkit-gnome-authorization.c:2098
+msgid "Obtained"
+msgstr "Saatu"
+
+#: ../tools/polkit-gnome-authorization.c:2106
+msgid "How"
+msgstr "Kuinka"
+
+#: ../tools/polkit-gnome-authorization.c:2114
+msgid "Constraints"
+msgstr "Rajoitteet"
+
+#: ../tools/polkit-gnome-authorization.c:2156
+#: ../tools/polkit-gnome-authorization.c:2170
+msgid "_Revoke"
+msgstr "_Peruuta"
+
+#: ../tools/polkit-gnome-authorization.c:2163
+msgid "_Revoke..."
+msgstr "_Peruuta..."
+
+#: ../tools/polkit-gnome-authorization.c:2183
+msgid "_Show authorizations from all users..."
+msgstr "_Näytä kaikkien käyttäjien valtuutukset..."
+
+#: ../tools/polkit-gnome-authorization.c:2184
+msgid "_Show authorizations from all users"
+msgstr "_Näytä kaikkien käyttäjien valtuutukset"
+
+#: ../tools/polkit-gnome-authorization.c:2426
+msgid "Select an action"
+msgstr "Valitse toiminto"
+
+#~ msgid "Must be on active console"
+#~ msgstr "On oltava aktiivisessa konsolissa"
