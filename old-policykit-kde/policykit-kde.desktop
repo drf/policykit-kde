@@ -1,0 +1,25 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=policykit-kde
+OnlyShowIn=KDE;
+Type=Application
+MimeType=
+Terminal=false
+X-KDE-autostart-after=panel
+X-KDE-StartupNotify=false
+X-DBUS-StartupType=Unique
+GenericName=PolicyKit Authentication Agent
+GenericName[el]=Πελάτης ταυτοποίησης PolicyKit
+GenericName[et]=PolicyKiti autentimisagent
+GenericName[fr]=Agent d'authentification PolicyKit
+GenericName[gl]=Cliente de autenticación de PolicyKit
+GenericName[km]=hភ្នាក់ងារ​ការ​ផ្ទៀងផ្ទាត់​ភាពត្រឹមត្រូវ​របស់ PolicyKit
+GenericName[pt]=Agente de Autenticação do PolicyKit
+GenericName[pt_BR]=Agente de Autenticação do PolicyKit
+GenericName[sv]=Policykit-modul för behörighetskontroll
+GenericName[tr]=PolicyKit Kimlik Doğrulama Uygulaması
+GenericName[uk]=Агент автентифікації PolicyKit
+GenericName[x-test]=xxPolicyKit Authentication Agentxx
+Name=PolicyKit-KDE
+Name[sv]=Policykit-KDE
+Name[x-test]=xxPolicyKit-KDExx
