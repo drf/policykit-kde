@@ -1,0 +1,59 @@
+# translation of sv.po to Svenska
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Patrik Karlsson <patrik@pardus.nu>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: sv\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-26 16:34+0300\n"
+"PO-Revision-Date: 2008-08-30 19:51+0200\n"
+"Last-Translator: Patrik Karlsson <patrik@pardus.nu>\n"
+"Language-Team: Svenska <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as the <b>super user</b> is required to perform this action."
+msgstr "Ett program försöker utföra en åtgärd som kräver utökade rättigheter. Autentisering som <b>superanvändare</b> krävs för att utföra åtgärden."
+
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr "Ett program försöker utföra en åtgärd som kräver utökade rättigheter. Autentisering krävs för att utföra åtgärden."
+
+msgid "Password"
+msgstr "Lösenord"
+
+msgid "Authentication Required"
+msgstr "Autentisering krävs"
+
+msgid "Select a user..."
+msgstr "Välj en användare..."
+
+msgid "User:"
+msgstr "Användare:"
+
+msgid "Remember authorization"
+msgstr "Kom ihåg autentisering"
+
+msgid "For this session only"
+msgstr "Endast för denna session"
+
+msgid "Always"
+msgstr "För alltid"
+
+msgid "Remember authorization for this session"
+msgstr "Kom ihåg autentisering för denna session"
+
+msgid "Alt+O"
+msgstr "Alt+O"
+
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+

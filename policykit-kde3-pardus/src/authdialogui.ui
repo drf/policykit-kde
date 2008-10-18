@@ -1,0 +1,366 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>AuthDialogUI</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>AuthDialogUI</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>532</width>
+            <height>261</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Authentication Required</string>
+    </property>
+    <property name="focusPolicy">
+        <enum>TabFocus</enum>
+    </property>
+    <property name="sizeGripEnabled">
+        <bool>false</bool>
+    </property>
+    <property name="modal">
+        <bool>true</bool>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>7</number>
+        </property>
+        <property name="spacing">
+            <number>5</number>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout7</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout4</cstring>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>lblPixmap</cstring>
+                            </property>
+                            <property name="margin">
+                                <number>5</number>
+                            </property>
+                            <property name="text">
+                                <string></string>
+                            </property>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>spacer5</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>40</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </vbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout6</cstring>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>lblHeader</cstring>
+                            </property>
+                            <property name="text">
+                                <string></string>
+                            </property>
+                            <property name="alignment">
+                                <set>WordBreak|AlignVCenter</set>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>lblContent</cstring>
+                            </property>
+                            <property name="text">
+                                <string></string>
+                            </property>
+                            <property name="alignment">
+                                <set>WordBreak|AlignVCenter</set>
+                            </property>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout9</cstring>
+                            </property>
+                            <grid>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLabel" row="1" column="0">
+                                    <property name="name">
+                                        <cstring>lblPassword</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string></string>
+                                    </property>
+                                </widget>
+                                <widget class="KLineEdit" row="1" column="1">
+                                    <property name="name">
+                                        <cstring>lePassword</cstring>
+                                    </property>
+                                    <property name="focusPolicy">
+                                        <enum>TabFocus</enum>
+                                    </property>
+                                    <property name="echoMode">
+                                        <enum>Password</enum>
+                                    </property>
+                                </widget>
+                                <widget class="KComboBox" row="0" column="1">
+                                    <property name="name">
+                                        <cstring>cbUsers</cstring>
+                                    </property>
+                                    <property name="toolTip" stdset="0">
+                                        <string>Select a user...</string>
+                                    </property>
+                                </widget>
+                                <widget class="QLabel" row="0" column="0">
+                                    <property name="name">
+                                        <cstring>lbUser</cstring>
+                                    </property>
+                                    <property name="sizePolicy">
+                                        <sizepolicy>
+                                            <hsizetype>4</hsizetype>
+                                            <vsizetype>5</vsizetype>
+                                            <horstretch>0</horstretch>
+                                            <verstretch>0</verstretch>
+                                        </sizepolicy>
+                                    </property>
+                                    <property name="text">
+                                        <string>User:</string>
+                                    </property>
+                                    <property name="scaledContents">
+                                        <bool>true</bool>
+                                    </property>
+                                </widget>
+                            </grid>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout5</cstring>
+                            </property>
+                            <vbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QButtonGroup">
+                                    <property name="name">
+                                        <cstring>bgRemember</cstring>
+                                    </property>
+                                    <property name="title">
+                                        <string>Remember authorization</string>
+                                    </property>
+                                    <property name="checkable">
+                                        <bool>true</bool>
+                                    </property>
+                                    <property name="checked">
+                                        <bool>false</bool>
+                                    </property>
+                                    <hbox>
+                                        <property name="name">
+                                            <cstring>unnamed</cstring>
+                                        </property>
+                                        <spacer>
+                                            <property name="name">
+                                                <cstring>spacer11</cstring>
+                                            </property>
+                                            <property name="orientation">
+                                                <enum>Horizontal</enum>
+                                            </property>
+                                            <property name="sizeType">
+                                                <enum>Fixed</enum>
+                                            </property>
+                                            <property name="sizeHint">
+                                                <size>
+                                                    <width>16</width>
+                                                    <height>20</height>
+                                                </size>
+                                            </property>
+                                        </spacer>
+                                        <widget class="QRadioButton">
+                                            <property name="name">
+                                                <cstring>rbSession</cstring>
+                                            </property>
+                                            <property name="text">
+                                                <string>For this session only</string>
+                                            </property>
+                                        </widget>
+                                        <widget class="QRadioButton">
+                                            <property name="name">
+                                                <cstring>rbAlways</cstring>
+                                            </property>
+                                            <property name="text">
+                                                <string>Always</string>
+                                            </property>
+                                        </widget>
+                                    </hbox>
+                                </widget>
+                                <widget class="QCheckBox">
+                                    <property name="name">
+                                        <cstring>cbRemember</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>Remember authorization for this session</string>
+                                    </property>
+                                </widget>
+                            </vbox>
+                        </widget>
+                    </vbox>
+                </widget>
+            </hbox>
+        </widget>
+        <spacer>
+            <property name="name">
+                <cstring>spacer5_2</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Preferred</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>20</width>
+                    <height>16</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="Line">
+            <property name="name">
+                <cstring>line</cstring>
+            </property>
+            <property name="frameShape">
+                <enum>HLine</enum>
+            </property>
+            <property name="frameShadow">
+                <enum>Sunken</enum>
+            </property>
+            <property name="orientation">
+                <enum>Horizontal</enum>
+            </property>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout2</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="spacing">
+                    <number>6</number>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>Horizontal Spacing2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>267</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pbOK</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;OK</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+O</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                    <property name="default">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>pbCancel</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Cancel</string>
+                    </property>
+                    <property name="accel">
+                        <string>Ctrl+S</string>
+                    </property>
+                    <property name="autoDefault">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>pbOK</sender>
+        <signal>clicked()</signal>
+        <receiver>AuthDialogUI</receiver>
+        <slot>accept()</slot>
+    </connection>
+    <connection>
+        <sender>pbCancel</sender>
+        <signal>clicked()</signal>
+        <receiver>AuthDialogUI</receiver>
+        <slot>reject()</slot>
+    </connection>
+    <connection>
+        <sender>bgRemember</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>rbSession</receiver>
+        <slot>setChecked(bool)</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>pbOK</tabstop>
+    <tabstop>pbCancel</tabstop>
+</tabstops>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>klineedit.h</includehint>
+    <includehint>kcombobox.h</includehint>
+</includehints>
+</UI>

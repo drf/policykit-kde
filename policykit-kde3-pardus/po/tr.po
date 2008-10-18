@@ -1,0 +1,71 @@
+# Turkish translations for PACKAGE package
+# PACKAGE paketi için Türkçe çeviriler.
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-26 16:34+0300\n"
+"PO-Revision-Date: 2008-05-11 18:48+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Alt+O"
+msgstr ""
+
+msgid "Always"
+msgstr "Her zaman"
+
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as the <b>super user</b> is required to perform this action."
+msgstr ""
+"Bir uygulama yetki gerektiren bir işlem yürütmeye çalışıyor. Bu işlemi "
+"yapmak için <b>yetkili kullanıcı</b> haklarına sahip olmanız gerekmektedir."
+
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr ""
+"Bir uygulama yetki gerektiren bir işlem yürütmeye çalışıyor. Bu işlemi "
+"yapmak için kimlik denetimi gerekmektedir."
+
+msgid "Authentication Required"
+msgstr "Kimlik Denetimi Gerekiyor"
+
+msgid "Ctrl+S"
+msgstr ""
+
+msgid "For this session only"
+msgstr "Sadece bu oturum için"
+
+msgid "Password"
+msgstr "Parola"
+
+msgid "Remember authorization"
+msgstr "Kimlik denetimini hatırla"
+
+msgid "Remember authorization for this session"
+msgstr "Kimlik denetimini bu oturum için kaydet"
+
+msgid "Select a user..."
+msgstr "Kullanıcı seçimi..."
+
+msgid "User:"
+msgstr "Kullanıcı:"
+
+#~ msgid "Password for root"
+#~ msgstr "root kullanıcı parolası"
+
+#~ msgid "Password for user(%1)"
+#~ msgstr "Kullanıcı (%1) parolası"
+
+#~ msgid "Select User..."
+#~ msgstr "Kullanıcı seçimi..."

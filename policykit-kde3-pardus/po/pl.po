@@ -1,0 +1,57 @@
+# Piotr Maliński <riklaunim@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:policykit kde\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-11 11:38+0200\n"
+"PO-Revision-Date: 2006-04-08 12:16+0900\n"
+"Last-Translator: Piotr Maliński <riklaunim@gmail.com>\n"
+"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as the <b>super user</b> is required to perform this action."
+msgstr ""
+"Aplikacja próbuje wykonać czynność dla której potrzebnej są większe uprawnienia."
+"Zalogowanie się jako <b>super user</b> jest wymagane dla tej akcji."
+
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr ""
+"Aplikacja próbuje wykonać czynność dla której potrzebnej są większe uprawnienia."
+"Wymagana jest autoryzacja dla tej czynności."
+
+msgid "Password"
+msgstr "Hasło"
+
+msgid "Authentication Required"
+msgstr "Wymagana Autoryzacja"
+
+msgid "Select a user..."
+msgstr "Wybierz użytkownika..."
+
+msgid "User:"
+msgstr "Użytkownik:"
+
+msgid "Remember authorization"
+msgstr "Zapamiętaj autoryzację"
+
+msgid "For this session only"
+msgstr "Tylko dla tej sesji"
+
+msgid "Always"
+msgstr "Zawsze"
+
+msgid "Remember authorization for this session"
+msgstr "Zapamiętaj autoryzację dla tej sesji"
+
+msgid "Alt+O"
+msgstr "Alt+O"
+
+msgid "Ctrl+S"
+msgstr "Ctrl+S"

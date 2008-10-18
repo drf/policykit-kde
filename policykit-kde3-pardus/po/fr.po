@@ -1,0 +1,66 @@
+# translation of fr.po to français
+# Turkish translations for PACKAGE package
+# PACKAGE paketi için Türkçe çeviriler.
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2008.
+# Philippe Svetoslavsky <philsvet@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: fr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-18 10:21+0300\n"
+"PO-Revision-Date: 2008-06-27 01:12+0200\n"
+"Last-Translator: Philippe Svetoslavsky <philsvet@gmail.com>\n"
+"Language-Team: français <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgid "Alt+O"
+msgstr "Alt+O"
+
+msgid "Always"
+msgstr "Toujours"
+
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as the <b>super user</b> is required to perform this action."
+msgstr ""
+"Une application tente une action qui requiert des privilèges. "
+"L'authentification en tant que <b>super utilisateur</b> est requise pour effectuer cette action."
+
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr ""
+"Une application tente une action qui requiert des privilèges. "
+"L'authentification en tant que <b>super utilisateur</b> est requise pour effectuer cette action."
+
+msgid "Authentication Required"
+msgstr "Authentification requise"
+
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+msgid "For this session only"
+msgstr "Uniquement pour cette session"
+
+msgid "Password"
+msgstr "Mot de passe"
+
+msgid "Remember authorization"
+msgstr "Se souvenir de l'autorisation"
+
+msgid "Remember authorization for this session"
+msgstr "Se souvenir de l'autorisation pour cette session"
+
+msgid "Select a user..."
+msgstr "Sélectionner un utilisateur..."
+
+msgid "User:"
+msgstr "Utilisateur :"
+

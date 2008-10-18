@@ -1,0 +1,16 @@
+IMPORTANT:
+* Fix admin user selection support (another eventloop solution may be required)
+* Fix dbus-qt3-backport's activation problem. Now, we can't use policykit-kde with dbus activation, it starts with kde.
+
+LESS IMPORTANT:
+* Do not send same DBus exceptions to all errors
+* Inform user that authentication is not granted
+* Use polkit_grant_cancel_auth in handler of DBus signal NameOwnerChanged
+* Show details about the application request for authorization
+* Check if authentication is in progress, when a new request arrived
+* Control XID and add 'transient for'
+* Add vendor icon support
+* Check "Password: " prompt like polkit-gnome
+* Review deconstructors for leaks, unrefs and closing connections
+* Handle exceptions wisely :)
+* Announcement in HAL mailing list

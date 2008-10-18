@@ -1,0 +1,68 @@
+# translation of es.po to
+# Turkish translations for PACKAGE package
+# PACKAGE paketi için Türkçe çeviriler.
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2008.
+# klemens <click3d_at_linuxmail_org>, 2008.
+# Klemens Häckel <click3d_at_linuxmail_org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: es\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-18 19:54+0300\n"
+"PO-Revision-Date: 2008-06-18 18:42-0400\n"
+"Last-Translator: Klemens Häckel <click3d_at_linuxmail_org>\n"
+"Language-Team:  <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+msgid "Alt+O"
+msgstr "Alt+O"
+
+msgid "Always"
+msgstr "Siempre"
+
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as the <b>super user</b> is required to perform this action."
+msgstr ""
+"Un programa está intentando realizar una acción que requiere preivilegios "
+"especiales. Se requiere autenticación como <b>usuario root</b> para realizar "
+"esta acción."
+
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr ""
+"Un programa está intentando realizar una acción que requiere preivilegios "
+"especiales. Se requiere autenticación para realizar esta acción."
+
+msgid "Authentication Required"
+msgstr "Se requiere autenticación"
+
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+msgid "For this session only"
+msgstr "Solamente para la sesión actual"
+
+msgid "Password"
+msgstr "Contraseña"
+
+msgid "Remember authorization"
+msgstr "Recordar autorización"
+
+msgid "Remember authorization for this session"
+msgstr "Recordar autorización para la sesión actual"
+
+msgid "Select a user..."
+msgstr "Seleccione a un usuario..."
+
+msgid "User:"
+msgstr "Usuario:"
+
