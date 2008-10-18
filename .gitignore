@@ -1,0 +1,7 @@
+build/
+Debug/
+.cproject
+.project
+*.moc
+moc_*
+ui_*
